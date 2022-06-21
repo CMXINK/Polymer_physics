@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="experiment">
+    <file>checkbox_drop-down.png</file>
+    <file>e7c07976538683163ef460b0adf0b00c.jpeg</file>
+    <file>恒温水浴.png</file>
+    <file>两口烧瓶.png</file>
+    <file>两口烧瓶.jpg</file>
+    <file>恒温水浴.jpg</file>
+    <file>电磁搅拌器.png</file>
+    <file>计泡器.png</file>
+    <file>氮气瓶.png</file>
+    <file>真空系统.png</file>
+    <file>实验图.png</file>
+  </qresource>
+</RCC>

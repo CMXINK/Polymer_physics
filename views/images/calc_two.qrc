@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="calc">
+    <file>bj1.jpg</file>
+    <file>bj8.png</file>
+  </qresource>
+</RCC>

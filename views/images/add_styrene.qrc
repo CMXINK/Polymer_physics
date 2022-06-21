@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="add">
+    <file>bj3.jpeg</file>
+    <file>简约2.jpg</file>
+    <file>填充png.png</file>
+    <file>颜色填充.png</file>
+    <file>注射器活塞.png</file>
+    <file>注射器针管.png</file>
+    <file>注射器.png</file>
+    <file>广口瓶.png</file>
+  </qresource>
+</RCC>

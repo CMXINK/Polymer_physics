@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1096</width>
+    <height>755</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Form{
+	
+	border-image: url(:/add/简约1.jpg);}
+
+</string>
+  </property>
+  <widget class="QWidget" name="template_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1091</width>
+     <height>751</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QWidget" name="title" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>1</horstretch>
+        <verstretch>1</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <widget class="QLabel" name="label_23">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>10</y>
+         <width>978</width>
+         <height>56</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 22pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>                           苯 乙 烯 阴 离 子 聚 合 实 验</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="section" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>1</horstretch>
+        <verstretch>10</verstretch>
+       </sizepolicy>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QWidget" name="content" native="true">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>1</horstretch>
+           <verstretch>12</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+	border:none;
+	font: 16pt &quot;Arial&quot;;
+	
+}
+*{
+	border-image:none;
+}
+QLabel{
+	color:red;
+}</string>
+         </property>
+         <widget class="QLabel" name="label">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>30</y>
+            <width>431</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;华文细黑&quot;;
+color:black;</string>
+          </property>
+          <property name="text">
+           <string>请选择您所需要的实验药品</string>
+          </property>
+         </widget>
+         <widget class="QWidget" name="layoutWidget">
+          <property name="geometry">
+           <rect>
+            <x>80</x>
+            <y>100</y>
+            <width>991</width>
+            <height>561</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout">
+             <property name="spacing">
+              <number>7</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_22">
+               <property name="styleSheet">
+                <string notr="true">font: 16pt &quot;黑体&quot;;
+color:balck;</string>
+               </property>
+               <property name="text">
+                <string>药品名称</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_2">
+               <property name="styleSheet">
+                <string notr="true">font: 16pt &quot;Arial&quot;;
+color:black;</string>
+               </property>
+               <property name="text">
+                <string>药品名称</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_3">
+               <property name="styleSheet">
+                <string notr="true">font: 16pt &quot;Arial&quot;;
+color:black;</string>
+               </property>
+               <property name="text">
+                <string>选择</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <item>
+              <widget class="QWidget" name="" native="true">
+               <layout class="QVBoxLayout" name="verticalLayout_5">
+                <property name="spacing">
+                 <number>30</number>
+                </property>
+                <property name="topMargin">
+                 <number>4</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>8</number>
+                </property>
+                <item>
+                 <widget class="QLabel" name="label_4">
+                  <property name="styleSheet">
+                   <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>酒精</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_5">
+                  <property name="styleSheet">
+                   <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>抽余油</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_6">
+                  <property name="styleSheet">
+                   <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>过氧化二苯甲酰</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_7">
+                  <property name="styleSheet">
+                   <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>丙烯腈</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_8">
+                  <property name="styleSheet">
+                   <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>苯乙烯</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_9">
+                  <property name="styleSheet">
+                   <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>偶氮二异丁腈</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_10">
+                  <property name="styleSheet">
+                   <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>四氢呋喃</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_11">
+                  <property name="styleSheet">
+                   <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>正丁基锂</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_12">
+                  <property name="styleSheet">
+                   <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>环己烷</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QWidget" name="" native="true">
+               <property name="styleSheet">
+                <string notr="true">color:black;</string>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_6">
+                <property name="spacing">
+                 <number>30</number>
+                </property>
+                <property name="topMargin">
+                 <number>4</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>8</number>
+                </property>
+                <item>
+                 <widget class="QLabel" name="label_13">
+                  <property name="styleSheet">
+                   <string notr="true">font: 12pt &quot;Arial&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>工业级</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_14">
+                  <property name="styleSheet">
+                   <string notr="true">font: 12pt &quot;Arial&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>工业级</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_15">
+                  <property name="styleSheet">
+                   <string notr="true">font: 12pt &quot;Arial&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>工业级</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_16">
+                  <property name="styleSheet">
+                   <string notr="true">font: 12pt &quot;Arial&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>精致</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_17">
+                  <property name="styleSheet">
+                   <string notr="true">font: 12pt &quot;Arial&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>精致</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_18">
+                  <property name="styleSheet">
+                   <string notr="true">font: 12pt &quot;Arial&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>精致</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_19">
+                  <property name="styleSheet">
+                   <string notr="true">font: 12pt &quot;Arial&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>精致</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_21">
+                  <property name="styleSheet">
+                   <string notr="true">font: 12pt &quot;Arial&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>自制</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_20">
+                  <property name="styleSheet">
+                   <string notr="true">font: 12pt &quot;Arial&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>精致</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_7">
+               <property name="spacing">
+                <number>30</number>
+               </property>
+               <property name="leftMargin">
+                <number>16</number>
+               </property>
+               <item>
+                <widget class="QCheckBox" name="medicine_alcohol_checkbox">
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QCheckBox" name="medicine_oil_checkbox">
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QCheckBox" name="medicine_peroxide_checkbox">
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QCheckBox" name="medicine_acrylonitrile_checkbox">
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QCheckBox" name="medicine_styrene_checkbox">
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QCheckBox" name="medicine_azodiisobutyronitrile_checkbox">
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QCheckBox" name="medicine_tetrahydrofuran_checkbox">
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QCheckBox" name="medicine_lithium_checkbox">
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QCheckBox" name="medicine_cyclohexane_checkbox">
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QPushButton" name="medicine_submit_btn">
+          <property name="geometry">
+           <rect>
+            <x>880</x>
+            <y>40</y>
+            <width>91</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+	border:none;
+	border-radius:7px;	
+	font: 13pt &quot;微软雅黑&quot;;
+	background-color: rgb(31, 117, 213);
+	color:rgb(255, 255, 255);
+	width:91px;
+	height:41px;
+}
+QPushButton:pressed{
+	border:none;
+	border-radius:7px;	
+	font: 13pt &quot;微软雅黑&quot;;	
+	background-color: rgb(31, 117, 213);
+	color:rgb(31, 117, 213);
+}</string>
+          </property>
+          <property name="text">
+           <string>确 认</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../images/add_medicine.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>medicine_alcohol_checkbox</sender>
+   <signal>stateChanged(int)</signal>
+   <receiver>Form</receiver>
+   <slot>object_checkbox_lk()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>805</x>
+     <y>282</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1134</x>
+     <y>283</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>medicine_oil_checkbox</sender>
+   <signal>stateChanged(int)</signal>
+   <receiver>Form</receiver>
+   <slot>object_checkbox_lk()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>775</x>
+     <y>339</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1149</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>medicine_peroxide_checkbox</sender>
+   <signal>stateChanged(int)</signal>
+   <receiver>Form</receiver>
+   <slot>object_checkbox_lk()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>782</x>
+     <y>389</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1129</x>
+     <y>382</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>medicine_acrylonitrile_checkbox</sender>
+   <signal>stateChanged(int)</signal>
+   <receiver>Form</receiver>
+   <slot>object_checkbox_lk()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>774</x>
+     <y>440</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1151</x>
+     <y>447</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>medicine_styrene_checkbox</sender>
+   <signal>stateChanged(int)</signal>
+   <receiver>Form</receiver>
+   <slot>object_checkbox_lk()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>784</x>
+     <y>496</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1112</x>
+     <y>492</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>medicine_azodiisobutyronitrile_checkbox</sender>
+   <signal>stateChanged(int)</signal>
+   <receiver>Form</receiver>
+   <slot>object_checkbox_lk()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>778</x>
+     <y>548</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1131</x>
+     <y>537</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>medicine_tetrahydrofuran_checkbox</sender>
+   <signal>stateChanged(int)</signal>
+   <receiver>Form</receiver>
+   <slot>object_checkbox_lk()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>777</x>
+     <y>600</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1134</x>
+     <y>600</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>medicine_lithium_checkbox</sender>
+   <signal>stateChanged(int)</signal>
+   <receiver>Form</receiver>
+   <slot>object_checkbox_lk()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>768</x>
+     <y>654</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1131</x>
+     <y>643</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>medicine_cyclohexane_checkbox</sender>
+   <signal>stateChanged(int)</signal>
+   <receiver>Form</receiver>
+   <slot>object_checkbox_lk()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>776</x>
+     <y>706</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1110</x>
+     <y>704</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>object_checkbox_lk()</slot>
+ </slots>
+</ui>

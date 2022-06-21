@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="con">
+    <file>configs.jpg</file>
+  </qresource>
+</RCC>

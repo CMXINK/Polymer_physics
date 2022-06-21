@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1091</width>
+    <height>709</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1091</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Form{
+	
+	border-image: url(:/experiment/e7c07976538683163ef460b0adf0b00c.jpeg);
+	
+}</string>
+  </property>
+  <widget class="QWidget" name="template_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1161</width>
+     <height>791</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QWidget" name="title" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>1</horstretch>
+        <verstretch>1</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <widget class="QLabel" name="label_15">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>10</y>
+         <width>978</width>
+         <height>56</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 22pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>                           苯 乙 烯 阴 离 子 聚 合 实 验</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="section" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>1</horstretch>
+        <verstretch>10</verstretch>
+       </sizepolicy>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QWidget" name="content" native="true">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>1</horstretch>
+           <verstretch>12</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QComboBox{
+	border:none;
+	border-radius:8px;	
+	font: 14pt &quot;微软雅黑&quot;;	
+	background-color: rgb(255, 85, 0);
+	color:rgb(255, 255, 255);
+	border-left:none;
+}
+QComboBox:clicked{
+	border:none;
+	border-radius:8px;	
+	font: 14pt &quot;微软雅黑&quot;;	
+	background-color: rgb(255, 85, 0);
+	color: rgb(255, 85, 0);
+}
+QComboBox::drop-down{
+	width:30px;
+	border-radius:8px;		
+	image: url(:/experiment/checkbox_drop-down.png);
+}
+QComboBox QAbstractItemView{
+	background-color:rgb(255, 170, 127);
+}
+QLabel {
+	font: 14pt &quot;楷体&quot;;
+}</string>
+         </property>
+         <widget class="QLabel" name="label">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>30</y>
+            <width>141</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;楷体&quot;;</string>
+          </property>
+          <property name="text">
+           <string>安装仪器</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_2">
+          <property name="geometry">
+           <rect>
+            <x>220</x>
+            <y>80</y>
+            <width>601</width>
+            <height>131</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/experiment/实验图.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_5">
+          <property name="geometry">
+           <rect>
+            <x>64</x>
+            <y>429</y>
+            <width>138</width>
+            <height>59</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/experiment/电磁搅拌器.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_6">
+          <property name="geometry">
+           <rect>
+            <x>814</x>
+            <y>339</y>
+            <width>42</width>
+            <height>153</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/experiment/真空系统.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_7">
+          <property name="geometry">
+           <rect>
+            <x>654</x>
+            <y>419</y>
+            <width>25</width>
+            <height>73</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/experiment/计泡器.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_8">
+          <property name="geometry">
+           <rect>
+            <x>1004</x>
+            <y>379</y>
+            <width>30</width>
+            <height>112</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/experiment/氮气瓶.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_17">
+          <property name="geometry">
+           <rect>
+            <x>464</x>
+            <y>429</y>
+            <width>52</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image:url(:/experiment/两口烧瓶.png)</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_18">
+          <property name="geometry">
+           <rect>
+            <x>254</x>
+            <y>449</y>
+            <width>100</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/experiment/恒温水浴.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox">
+          <property name="geometry">
+           <rect>
+            <x>66</x>
+            <y>564</y>
+            <width>91</width>
+            <height>36</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <item>
+           <property name="text">
+            <string>选 择</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置2</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置3</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置4</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置5</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置6</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QComboBox" name="comboBox_2">
+          <property name="geometry">
+           <rect>
+            <x>254</x>
+            <y>564</y>
+            <width>91</width>
+            <height>36</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <item>
+           <property name="text">
+            <string>选 择</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置2</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置3</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置4</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置5</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置6</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QComboBox" name="comboBox_3">
+          <property name="geometry">
+           <rect>
+            <x>444</x>
+            <y>564</y>
+            <width>91</width>
+            <height>36</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <item>
+           <property name="text">
+            <string>选 择</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置2</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置3</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置4</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置5</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置6</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QComboBox" name="comboBox_4">
+          <property name="geometry">
+           <rect>
+            <x>614</x>
+            <y>564</y>
+            <width>91</width>
+            <height>36</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <item>
+           <property name="text">
+            <string>选 择</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置2</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置3</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置4</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置5</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置6</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QComboBox" name="comboBox_5">
+          <property name="geometry">
+           <rect>
+            <x>794</x>
+            <y>564</y>
+            <width>91</width>
+            <height>36</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <item>
+           <property name="text">
+            <string>选 择</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置2</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置3</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置4</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置5</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置6</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QComboBox" name="comboBox_6">
+          <property name="geometry">
+           <rect>
+            <x>964</x>
+            <y>564</y>
+            <width>91</width>
+            <height>36</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <item>
+           <property name="text">
+            <string>选 择</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置2</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置3</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置4</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置5</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>位置6</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QLabel" name="label_3">
+          <property name="geometry">
+           <rect>
+            <x>153</x>
+            <y>90</y>
+            <width>81</width>
+            <height>171</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border:2px solid red;</string>
+          </property>
+          <property name="text">
+           <string>位置一</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_4">
+          <property name="geometry">
+           <rect>
+            <x>820</x>
+            <y>90</y>
+            <width>81</width>
+            <height>171</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border:2px solid red;</string>
+          </property>
+          <property name="text">
+           <string>位置三</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_29">
+          <property name="geometry">
+           <rect>
+            <x>260</x>
+            <y>130</y>
+            <width>81</width>
+            <height>171</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border:2px solid red;</string>
+          </property>
+          <property name="text">
+           <string>位置二</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_33">
+          <property name="geometry">
+           <rect>
+            <x>490</x>
+            <y>310</y>
+            <width>211</width>
+            <height>81</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border:2px solid red;</string>
+          </property>
+          <property name="text">
+           <string>     位置六</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_34">
+          <property name="geometry">
+           <rect>
+            <x>540</x>
+            <y>250</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border:2px solid red;</string>
+          </property>
+          <property name="text">
+           <string>  位置五</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="install_instrument_submit_btn">
+          <property name="geometry">
+           <rect>
+            <x>950</x>
+            <y>100</y>
+            <width>91</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+	border:none;
+	border-radius:7px;	
+	font: 13pt &quot;微软雅黑&quot;;
+	background-color: rgb(31, 117, 213);
+	color:rgb(255, 255, 255);
+	width:91px;
+	height:41px;
+}
+QPushButton:pressed{
+	border:none;
+	border-radius:7px;	
+	font: 13pt &quot;微软雅黑&quot;;	
+	background-color: rgb(31, 117, 213);
+	color:rgb(31, 117, 213);
+}</string>
+          </property>
+          <property name="text">
+           <string>确 认</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_9">
+          <property name="geometry">
+           <rect>
+            <x>75</x>
+            <y>520</y>
+            <width>120</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>电磁搅拌器</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_10">
+          <property name="geometry">
+           <rect>
+            <x>280</x>
+            <y>520</y>
+            <width>48</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>冷浴</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_11">
+          <property name="geometry">
+           <rect>
+            <x>444</x>
+            <y>519</y>
+            <width>96</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>两口烧瓶</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_12">
+          <property name="geometry">
+           <rect>
+            <x>624</x>
+            <y>519</y>
+            <width>72</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>计泡器</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_13">
+          <property name="geometry">
+           <rect>
+            <x>794</x>
+            <y>519</y>
+            <width>96</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>真空装置</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_14">
+          <property name="geometry">
+           <rect>
+            <x>964</x>
+            <y>519</y>
+            <width>72</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>氮气瓶</string>
+          </property>
+         </widget>
+         <widget class="QWidget" name="widget" native="true">
+          <property name="geometry">
+           <rect>
+            <x>560</x>
+            <y>220</y>
+            <width>81</width>
+            <height>51</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_3" stretch="2,1">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="label_31">
+             <property name="styleSheet">
+              <string notr="true">border:2px solid red;
+border-bottom:none;</string>
+             </property>
+             <property name="text">
+              <string>位置四</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_32">
+             <property name="styleSheet">
+              <string notr="true">border:2px dotted red;
+border-top:none;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <zorder>widget</zorder>
+         <zorder>label</zorder>
+         <zorder>label_2</zorder>
+         <zorder>label_5</zorder>
+         <zorder>label_6</zorder>
+         <zorder>label_7</zorder>
+         <zorder>label_8</zorder>
+         <zorder>comboBox</zorder>
+         <zorder>comboBox_2</zorder>
+         <zorder>comboBox_3</zorder>
+         <zorder>comboBox_4</zorder>
+         <zorder>comboBox_5</zorder>
+         <zorder>comboBox_6</zorder>
+         <zorder>label_3</zorder>
+         <zorder>label_4</zorder>
+         <zorder>label_29</zorder>
+         <zorder>label_33</zorder>
+         <zorder>label_18</zorder>
+         <zorder>label_17</zorder>
+         <zorder>label_34</zorder>
+         <zorder>install_instrument_submit_btn</zorder>
+         <zorder>label_9</zorder>
+         <zorder>label_10</zorder>
+         <zorder>label_11</zorder>
+         <zorder>label_12</zorder>
+         <zorder>label_13</zorder>
+         <zorder>label_14</zorder>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../images/designer_experiment.qrc"/>
+ </resources>
+ <connections/>
+</ui>

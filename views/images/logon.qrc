@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="logon">
+    <file>logon_safe_yellow.jpg</file>
+    <file>LOGON.png</file>
+    <file>ico-user.png</file>
+    <file>ico-password.png</file>
+  </qresource>
+</RCC>

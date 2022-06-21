@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="add">
+    <file>bj1.jpg</file>
+    <file>bj3.jpeg</file>
+    <file>bj8.png</file>
+    <file>简约2.jpg</file>
+    <file>加入环己烷.png</file>
+  </qresource>
+</RCC>

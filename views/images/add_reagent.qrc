@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="add">
+    <file>广口瓶.png</file>
+    <file>bj8.png</file>
+    <file>简约1.jpg</file>
+    <file>简约2.jpg</file>
+    <file>实验结果图.png</file>
+    <file>注射器.png</file>
+  </qresource>
+</RCC>

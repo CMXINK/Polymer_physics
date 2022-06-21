@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="add">
+    <file>bj7.jpeg</file>
+    <file>bj2.jpeg</file>
+    <file>简约2.jpg</file>
+    <file>简约1.jpg</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="calc">
+    <file>bj1.jpg</file>
+  </qresource>
+</RCC>

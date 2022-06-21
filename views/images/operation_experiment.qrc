@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="operation">
+    <file>简约1.jpg</file>
+    <file>实验结果图.png</file>
+  </qresource>
+</RCC>

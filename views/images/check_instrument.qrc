@@ -1,0 +1,23 @@
+<RCC>
+  <qresource prefix="instrument">
+    <file>简约2.jpg</file>
+    <file>烧杯.png</file>
+    <file>恒温水浴锅1.jpg</file>
+    <file>电磁搅拌器.png</file>
+    <file>铁架台.jpg</file>
+    <file>真空系统.png</file>
+    <file>双排管系统.png</file>
+    <file>锥形瓶.jpg</file>
+    <file>注射器.png</file>
+    <file>氮气瓶.png</file>
+    <file>电磁搅拌器.png</file>
+    <file>两口烧瓶1.jpg</file>
+    <file>加料管.jpg</file>
+    <file>温度计.png</file>
+    <file>锥形瓶.jpg</file>
+    <file>烧杯.jpg</file>
+    <file>计泡器.jpg</file>
+    <file>后壁乳胶管.jpg</file>
+    <file>冷凝管.jpg</file>
+  </qresource>
+</RCC>
